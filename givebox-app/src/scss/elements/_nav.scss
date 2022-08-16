@@ -1,0 +1,47 @@
+.nav_container {
+  display: block;
+}
+
+.regOrLog {
+  width: 50vw;
+  margin: 46px 0 34px 0;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+
+  .btn {
+    padding: 10px;
+    margin: 0 5px;
+
+    a {
+      color: $color-light-grey;
+      text-decoration: none;
+      font-size: smaller;
+    }
+
+    &:hover {
+      border: .75px solid $color-btn-border;
+      transition: 0.5s;
+    }
+  }
+}
+
+.menu {
+  width: 50vw;
+  display: flex;
+  justify-content: flex-end;
+
+  .menu_el {
+    margin-left: 55px;
+    a {
+      color: $color-grey;
+      text-decoration: none;
+      font-size: smaller;
+    }
+
+    &:hover {
+      font-weight: bolder;
+      transition: 0.5s;
+    }
+  }
+}

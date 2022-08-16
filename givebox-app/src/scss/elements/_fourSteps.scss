@@ -1,0 +1,58 @@
+.fourStepsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $color-grey;
+  margin-bottom: 2rem;
+
+  .fourSteps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    .fourStepsTitle {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .fourCol {
+    background-color: $color-bg-grey;
+    display: flex;
+
+    .fourCol__col {
+      margin: 4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      .icon {
+        width: 4rem;
+        height: 4rem;
+      }
+
+      .colTitle {
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: large;
+
+        &::after {
+          content: "";
+          display: block;
+          width: 50px;
+          height: 1px;
+          background: $color-grey;
+          flex-grow: 1;
+          margin: 1rem;
+        }
+      }
+      span {
+        font-size: smaller;
+      }
+    }
+  }
+}

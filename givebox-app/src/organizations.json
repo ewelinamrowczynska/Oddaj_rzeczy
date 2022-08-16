@@ -1,0 +1,112 @@
+{
+  "organizations": [
+    {
+      "type": "Fundacja",
+      "name": "Dbam o Zdrowie",
+      "mission": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+      "needs": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+    },
+    {
+      "type": "Fundacja",
+      "name": "Dla dzieci",
+      "mission": "Pomoc dzieciom z ubogich rodzin.",
+      "needs": "ubrania, meble, zabawki"
+    },
+    {
+      "type": "Fundacja",
+      "name": "Bez domu",
+      "mission": "Pomoc dla osób nie posiadających miejsca zamieszkania.",
+      "needs": "ubrania, jedzenie, ciepłe koce"
+    },
+    {
+      "type": "Fundacja",
+      "name": "Czwarta",
+      "mission": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "needs": "incididunt, ut labore, et dolore, magna"
+    },
+    {
+      "type": "Fundacja",
+      "name": "Piąta",
+      "mission": "Ut enim ad minim veniam, quis nostrud exercitation.",
+      "needs": "ullamco, laboris, nisi, ut aliquip"
+    },
+    {
+      "type": "Fundacja",
+      "name": "Szósta",
+      "mission": "Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "needs": "esse, cillum, dolore, eu fugiat"
+    },
+    {
+      "type": "Fundacja",
+      "name": "Siódma",
+      "mission": "Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "needs": "esse, cillum, dolore, eu fugiat"
+    },
+    {
+      "type": "Fundacja",
+      "name": "Ósma",
+      "mission": "Excepteur sint occaecat cupidatat non proident.",
+      "needs": "sunt, in culpa, qui offici"
+    },
+    {
+      "type": "Fundacja",
+      "name": "Dziewiąta",
+      "mission": "Sed ut perspiciatis unde omnis iste natus.",
+      "needs": "error, sit voluptatem, accusantium doloremque"
+    },
+    {
+      "type": "Organizacja pozarządowa",
+      "name": "OPP1",
+      "mission": "Sed ut perspiciatis unde omnis iste natus.",
+      "needs": "error, sit voluptatem, accusantium doloremque"
+    },
+    {
+      "type": "Organizacja pozarządowa",
+      "name": "OPP2",
+      "mission": "Excepteur sint occaecat cupidatat non proident.",
+      "needs": "sunt, in culpa, qui offici"
+    },
+    {
+      "type": "Organizacja pozarządowa",
+      "name": "OPP3",
+      "mission": "Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "needs": "esse, cillum, dolore, eu fugiat"
+    },
+    {
+      "type": "Organizacja pozarządowa",
+      "name": "OPP4",
+      "mission": "Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "needs": "esse, cillum, dolore, eu fugiat"
+    },
+    {
+      "type": "Organizacja pozarządowa",
+      "name": "OPP5",
+      "mission": "Ut enim ad minim veniam, quis nostrud exercitation.",
+      "needs": "ullamco, laboris, nisi, ut aliquip"
+    },
+    {
+      "type": "Organizacja pozarządowa",
+      "name": "OPP6",
+      "mission": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "needs": "esse, cillum, dolore, eu fugiat"
+    },
+    {
+      "type": "Zbiórka",
+      "name": "Lorem Ipsum 1",
+      "mission": "Nemo enim ipsam voluptatem quia voluptas sit.",
+      "needs": "aspernatur, aut, odit, aut fugit"
+    },
+    {
+      "type": "Zbiórka",
+      "name": "Lorem Ipsum 2",
+      "mission": "Neque porro quisquam est, qui dolorem.",
+      "needs": "ipsum, quia, dolor"
+    },
+    {
+      "type": "Zbiórka",
+      "name": "Lorem Ipsum 3",
+      "mission": "Quis autem vel eum iure reprehenderit.",
+      "needs": "velit, esse, quam, nihil"
+    }
+  ]
+}

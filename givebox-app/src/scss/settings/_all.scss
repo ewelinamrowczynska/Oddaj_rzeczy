@@ -1,0 +1,26 @@
+
+.decoration {
+  max-width: 10rem;
+}
+.title {
+  font-size: x-large;
+  line-height: 2em;
+}
+.big-btn {
+  width: 155px;
+  height: 60px;
+  margin: 1rem;
+  border: 1px solid $color-grey;
+  border-radius: 0;
+  background-color: white;
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color-grey;
+
+    &:hover {
+      font-weight: bold;
+      transition: 0.5s;
+    }
+  }
+}
