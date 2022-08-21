@@ -23,7 +23,7 @@ const OrganizationsList = (props) => {
                     )
                 }
                 else return (
-                    <span className="title">Aktualnie brak {elem.type} w bazie
+                    <span className="title">Aktualnie brak {elem.type} w naszej bazie
                     </span>
                 )
         }))
