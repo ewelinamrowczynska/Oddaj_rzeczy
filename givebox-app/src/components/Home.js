@@ -1,9 +1,6 @@
 import React from 'react';
-import Nav from "./Nav";
-import HomeThreeColumns from "./HomeThreeColumns";
-import HomeHeader from "./HomeHeader";
-import {Link} from "react-router-dom";
 import HeaderImg from "./HeaderImg";
+import HomeThreeColumns from "./HomeThreeColumns";
 import FourSteps from "./FourSteps";
 import AboutUs from "./AboutUs";
 import Organizations from "./Organizations";
@@ -15,7 +12,7 @@ const Home = () => {
             <HeaderImg />
             <HomeThreeColumns />
             <FourSteps />
-            <AboutUs />
+            <AboutUs name="Kowal"/>
             <Organizations />
             <Contact />
         </>

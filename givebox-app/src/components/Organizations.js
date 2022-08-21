@@ -1,6 +1,6 @@
 import React from 'react';
-import decoration from "../assets/decoration.svg";
 import OrganizationsList from "./OrganizationsList";
+import decoration from "../assets/decoration.svg";
 
 const Organizations = () => {
     return (
@@ -12,8 +12,10 @@ const Organizations = () => {
                 <button className="big-btn">Organizacjom pozarządowym</button>
                 <button className="big-btn">Lokalnym zbiórkom</button>
             </div>
-            <span className="organizations__text"> W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.
-        </span>
+            <span className="organizations__text">
+                W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy.
+                Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.
+            </span>
             <div className="organizations__list">
                 <OrganizationsList type="Fundacja"/>
             </div>

@@ -1,15 +1,15 @@
 import React from 'react';
-import heroImg from "../assets/heroImg.jpg";
 import Nav from "./Nav";
 import HomeHeader from "./HomeHeader";
+import heroImg from "../assets/heroImg.jpg";
 
 const Header = () => {
     return (
         <div className="navi">
-            <img className="hero-img" src={heroImg}/>
+            <img className="hero-img" src={heroImg} />
             <div className="header_content">
-                <Nav/>
-                <HomeHeader/>
+                <Nav />
+                <HomeHeader />
             </div>
         </div>
     );
