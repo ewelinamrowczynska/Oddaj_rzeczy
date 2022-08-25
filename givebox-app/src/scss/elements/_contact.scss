@@ -1,14 +1,23 @@
+.contact {
+  position: relative;
+}
 
+.bg-img {
+  width: 100vw;
+  height: 100vh;
+  background: url("../../assets/bgContactForm.jpg") center center no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+}
 .contact__container {
+  position: absolute;
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  background: url("../../assets/bgContactForm.jpg") center center no-repeat;
-  background-size: cover;
-  opacity: 0.5;
 
   .form {
     max-width: 40%;

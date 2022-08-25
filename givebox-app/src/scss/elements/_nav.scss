@@ -12,6 +12,7 @@
   .btn {
     padding: 10px;
     margin: 0 5px;
+    border: .75px solid transparent;
 
     a {
       color: $color-light-grey;
@@ -32,7 +33,9 @@
   justify-content: flex-end;
 
   .menu_el {
-    margin-left: 55px;
+    margin-left: 2rem;
+    padding: 10px;
+    border: .75px solid transparent;
     a {
       color: $color-grey;
       text-decoration: none;
@@ -40,7 +43,7 @@
     }
 
     &:hover {
-      font-weight: bolder;
+      border: .75px solid black;
       transition: 0.5s;
     }
   }

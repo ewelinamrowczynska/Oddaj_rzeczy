@@ -1,23 +1,12 @@
 .fourStepsContainer {
+  padding: 2rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: $color-grey;
-  margin-bottom: 2rem;
-
-  .fourSteps {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2rem;
-
-    .fourStepsTitle {
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-    }
-  }
 
   .fourCol {
+    margin-top: 2rem ;
     background-color: $color-bg-grey;
     display: flex;
 
@@ -52,6 +41,7 @@
       }
       span {
         font-size: smaller;
+        line-height: 1.5em;
       }
     }
   }

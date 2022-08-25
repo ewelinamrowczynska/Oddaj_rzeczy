@@ -1,13 +1,14 @@
 import React from 'react';
-import decoration from "../assets/decoration.svg";
-import bgContactForm from "../assets/bgContactForm.jpg";
+import Title from "./Title";
 
 const Contact = () => {
     return (
+        <div className="contact">
+            <div className="bg-img">
+            </div>
         <div className="contact__container">
             <form className="form">
-                <h2>Skontaktuj się z nami</h2>
-                <img className="decoration" src={decoration}/>
+                <Title title="Skontaktuj się z nami"/>
                 <div className="form__first-line">
                     <div className="form__input">
                         <label>Wpisz swoje imię</label><input placeholder="Ewelina"></input></div>
@@ -22,6 +23,7 @@ const Contact = () => {
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
                 />
             </form>
+        </div>
         </div>
     );
 };

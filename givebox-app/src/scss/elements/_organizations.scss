@@ -8,7 +8,10 @@
     margin-top: 2rem;
     display: flex;
     .big-btn {
-      border: none;
+      border: 1px solid transparent;
+      &:hover {
+        border: 1px solid $color-grey;
+      }
     }
   }
   .organizations__text {

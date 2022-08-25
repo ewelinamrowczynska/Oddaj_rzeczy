@@ -1,36 +1,31 @@
-import React from 'react';
-import organizations from "../organizations.json";
+import React, {useState, useEffect} from 'react';
+import getData from "../api";
 
 const OrganizationsList = (props) => {
-    const getOrganization = (type) => {
-        fetch("../organizations.json")
-            .then(response => response.json())
-            .then(data => data.organizations.map(elem => {
-                if (elem.type === type) {
-                    console.log(elem.type);
-                    return (
-                        <div className="table">
-                            <table>
-                                <tr>
+    const [orgs, setOrgs] = useState([]);
+    useEffect(() => {
+        getData().then((data) => setOrgs(data.organizations.filter(el => el.type === props.type)));
+    }, []);
+    return (
+        <div className="table">
+            <table>
+                <tbody>
+                    {
+                        orgs.map((elem, i) => {
+                            return (
+                                <tr key={i}>
                                     <td>
                                         <span className="org-name title">{elem.type} {elem.name}</span>
                                         <span className="org-mission">{elem.mission}</span>
                                     </td>
                                     <td><span className="org-needs">{elem.needs}</span></td>
                                 </tr>
-                            </table>
-                        </div>
-                    )
-                }
-                else return (
-                    <span className="title">Aktualnie brak {elem.type} w naszej bazie
-                    </span>
-                )
-        }))
-    }
-
-    return ( getOrganization("Fundacja")
-    );
+                            )})
+                    }
+                </tbody>
+            </table>
+        </div>
+    )
 };
 
 export default OrganizationsList;

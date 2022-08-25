@@ -1,15 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import decoration from "../assets/decoration.svg"
+import Title from "./Title";
 
-const HomeHeader = () => {
+const HomeHeader = ({title}) => {
     return (
             <div className="homeHeader">
-                <h2 className="title">
-                    Zacznij pomagać! <br/>
-                    Oddaj niechciane rzeczy w zaufane ręce
-                </h2>
-                <img className="decoration" src={decoration} />
+                <Title title="Zacznij pomagać!
+                  Oddaj niechciane rzeczy w zaufane ręce"/>
                 <div className="buttons">
                     <button className="big-btn">
                         <Link to="/log-in">Oddaj<br />rzeczy</Link>

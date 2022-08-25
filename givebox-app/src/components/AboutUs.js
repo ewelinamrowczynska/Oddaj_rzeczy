@@ -1,14 +1,12 @@
 import React from 'react';
-import decoration from "../assets/decoration.svg";
+import Title from "./Title";
 import Signature from "../assets/Signature.svg";
 import People from "../assets/People.jpg";
 
-const AboutUs = ({name}) => {
-    console.log(name);
+const AboutUs = () => {
     return (<div className="aboutUs">
         <div className="aboutUs__content">
-            <h2 className="aboutUs__title title">O nas {name}</h2>
-            <img className="decoration" src={decoration}/>
+            <Title title="O nas"/>
             <span className="aboutUs__text">
                 Nori grape silver beet broccoli kombu beet<br/>
                 greens fava bean potato quandong celery.<br/>
